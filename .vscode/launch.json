@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "OverridingDemo",
+      "request": "launch",
+      "mainClass": "OverridingDemo",
+      "projectName": "Java Programs_496c4e1c"
+    },
+    {
+      "type": "java",
+      "name": "AuthSystem",
+      "request": "launch",
+      "mainClass": "AuthSystem",
+      "projectName": "Java Programs_496c4e1c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/nawaz/Java Programs",
+      "program": "c:/Users/nawaz/Java Programs/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

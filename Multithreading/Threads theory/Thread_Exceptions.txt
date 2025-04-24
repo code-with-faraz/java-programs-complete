@@ -1,0 +1,7 @@
+💥 Common Thread Exceptions:
+
+Exception	                   When it Occurs
+IllegalThreadStateException	   Calling start() on an already started thread.
+InterruptedException	       A sleeping/waiting thread is interrupted.
+RuntimeException	           General runtime errors inside a thread.
+NullPointerException	       Accessing a null reference inside a thread. 

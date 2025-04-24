@@ -1,0 +1,8 @@
+In Java, each thread has a priority that helps the CPU decide which thread to run first when multiple threads are waiting.
+
+🔥 Default Thread Priorities
+Every thread has a default priority of 5 (i.e., NORM_PRIORITY).
+We can change a thread’s priority using .setPriority(int), where:
+1 (MIN_PRIORITY) → Lowest priority
+5 (NORM_PRIORITY) → Default priority
+10 (MAX_PRIORITY) → Highest priority

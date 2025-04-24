@@ -1,0 +1,8 @@
+A thread in Java goes through five states in its lifecycle:
+
+1- New (Created) – When you create a thread using Thread t = new Thread(); but haven’t started it yet.
+2- Runnable – After calling start(), the thread is ready to run but waits for CPU time.
+3- Blocked – If a thread is waiting to enter a synchronized block but another thread is inside, it gets blocked.
+4- Waiting / Timed Waiting – A thread that’s paused indefinitely (wait()) or for a set time (sleep(ms)).
+5- Terminated (Dead) – Once the thread finishes execution or is stopped, it's gone for good.
+
