@@ -5,5 +5,4 @@ public class Main {
         MyClass obj = new MyClass();
         obj.display();
     }
-    
 }

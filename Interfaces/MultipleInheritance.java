@@ -35,5 +35,4 @@ public class MultipleInheritance {
         s.produceVenom();
         s.crawl();
     }
-    
 }

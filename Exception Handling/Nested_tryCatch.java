@@ -13,6 +13,8 @@ public class Nested_tryCatch {
             System.out.println(result);
         }catch(ArithmeticException e){
             System.out.println("Arithmetic exception");
+        }finally{
+            System.out.println("Executed successfully");
         }
     }
 }

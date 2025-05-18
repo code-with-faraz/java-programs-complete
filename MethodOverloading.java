@@ -1,25 +1,22 @@
 class Addition{
-public void add(int a, int b){
-    System.out.println(a+b);
+    public static void add(int a, int b){
+        System.out.println(a+b);
+    }
+
+    public static void add(int a, int b, int c){
+        System.out.println(a+b+c);
+    }
+
+    public static void add(double a, double b){
+        System.out.println(a+b);
+    }
 }
 
-public void add(int a, int b, int c){
-    System.out.println(a+b+c);
-}
-
-
-public void add(double a, double b){
-    System.out.println(a+b);
- }
-} 
-
-public class MethodOverloading {
+public class MethodOverloading{
     public static void main(String[] args){
-        Addition a = new Addition();
 
-        a.add(10, 20);
-        a.add(10, 20, 30);
-        a.add(10.5, 20.5);      
-        
+        Addition.add(10, 23);
+        Addition.add(12,32,53);
+        Addition.add(23.5,12.57);
     }
 }
