@@ -6,12 +6,11 @@ public class TwoDArray {
             {7,8,9}
         };
 
-        for(int i=0; i<3; i++){
-            for(int j=0; j<3; j++){
-                System.out.println(arr[i][j]);
+        for (int[] row : arr) {
+            for (int val : row) {
+                System.out.println(val);
             }
         }
     }
 }
-
 
